@@ -1,13 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Zen Maru Gothic", serif;
+	font-weight: 300;
+	font-size: 0.8rem;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: hsl(0, 0%, 96%)
+}
+
+
+@media (min-width: 600px) {
+	body {
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		font-size: 1.4rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: start;
+	}
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }

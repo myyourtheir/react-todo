@@ -1,0 +1,12 @@
+.checkBox_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.3em;
+	height: 1.3em;
+	border-color: hsl(0, 4%, 72%);
+	border-width: 0.7px;
+	border-radius: 100%;
+	border-style: solid;
+	cursor: pointer;
+}

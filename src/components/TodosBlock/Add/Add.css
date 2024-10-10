@@ -1,0 +1,29 @@
+.add_container {
+	display: flex;
+	column-gap: .5em;
+	width: 100%;
+	border-bottom: 1 solid hsl(0, 0%, 80%);
+	height: 1.5em;
+}
+
+.add_input {
+	outline: none;
+	border: none;
+	font-size: inherit;
+	flex: 1;
+}
+
+.add::placeholder {
+	color: hsl(0, 0%, 85%);
+	font-style: italic;
+}
+
+.add_button {
+	border: none;
+	background-color: hsl(0, 0%, 80%);
+	color: hsl(0, 0%, 100%);
+	font-size: .8em;
+	padding: 0.3em;
+	cursor: pointer;
+	border-radius: .3em;
+}

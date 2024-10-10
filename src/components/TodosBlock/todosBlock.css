@@ -1,0 +1,13 @@
+.todosBlock {
+	width: calc(14rem + 20vmin);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 0.4em;
+	justify-content: start;
+	background-color: hsl(0, 0%, 100%);
+	padding: 0.5em;
+	font-size: 1.2rem;
+	box-shadow: 0 4px 8px 3px hsla(0, 0%, 80%, 0.205);
+	margin-bottom: 0.5em;
+}
